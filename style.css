@@ -1,0 +1,28 @@
+/* create custom scrollbar */
+body::-webkit-scrollbar {
+  width: 7px;
+  transition: all 0.4s ease-in-out;
+}
+body::-webkit-scrollbar-track {
+  background: #101010;
+  width: 7px;
+}
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    171.21deg,
+    #554dde -10.74%,
+    #f44e77 112.82%,
+    #f44e77 112.82%
+  );
+  border-radius: 10px;
+  transition: all 0.4s ease-in-out;
+}
+body::-webkit-scrollbar-thumb:hover {
+  transition: all 0.4s ease-in-out;
+  background: linear-gradient(
+    300.81deg,
+    #554dde -17.99%,
+    #f44e77 111.32%,
+    #f44e77 111.32%
+  );
+}
